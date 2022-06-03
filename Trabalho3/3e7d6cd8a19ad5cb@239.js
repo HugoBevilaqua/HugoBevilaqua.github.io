@@ -91,6 +91,6 @@ export default function define(runtime, observer) {
   main.variable(observer("n")).define("n", ["Generators", "viewof n"], (G, _) => G.input(_));
   main.variable(observer("viewof variation")).define("viewof variation", ["Inputs","localStorage"], _variation);
   main.variable(observer("variation")).define("variation", ["Generators", "viewof variation"], (G, _) => G.input(_));
-  main.variable(observer("draw")).define("draw", ["desenho","n","ratio","variation","svg","localStorage"], _draw);
+  //main.variable(observer("draw")).define("draw", ["desenho","n","ratio","variation","svg","localStorage"], _draw);
   return main;
 }
