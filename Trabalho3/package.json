@@ -1,0 +1,14 @@
+{
+  "name": "3e7d6cd8a19ad5cb",
+  "main": "3e7d6cd8a19ad5cb@239.js",
+  "version": "239.0.0",
+  "homepage": "https://observablehq.com/d/3e7d6cd8a19ad5cb",
+  "author": {
+    "name": "hugobevilaqua",
+    "url": "https://observablehq.com/@hugobevilaqua"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
